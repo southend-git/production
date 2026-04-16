@@ -1,0 +1,93 @@
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+.wrap { padding: 1rem 0; }
+.section-head { font-size: 11px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.08em; padding: 12px 0 6px; border-bottom: 0.5px solid var(--color-border-tertiary); margin-bottom: 2px; display: flex; justify-content: space-between; align-items: baseline; }
+.section-window { font-size: 11px; color: var(--color-text-secondary); font-weight: 400; text-transform: none; letter-spacing: 0; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 0.5rem; }
+th { text-align: left; padding: 7px 10px; font-size: 10px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 0.5px solid var(--color-border-tertiary); }
+td { padding: 9px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); color: var(--color-text-primary); vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--color-background-secondary); }
+.name { font-weight: 500; }
+.pill { display: inline-block; font-size: 10px; padding: 2px 7px; border-radius: var(--border-radius-md); font-weight: 500; }
+.pill-strings { background: #EAF3DE; color: #3B6D11; }
+.pill-woodwind { background: #E6F1FB; color: #185FA5; }
+.pill-brass { background: #FAEEDA; color: #854F0B; }
+.pill-perc { background: #FCEBEB; color: #A32D2D; }
+.pill-harp { background: #EEEDFE; color: #3C3489; }
+.contact { font-size: 11px; color: var(--color-text-secondary); }
+.call-time { font-size: 12px; font-weight: 500; color: var(--color-text-primary); white-space: nowrap; }
+.maybe-tag { font-size: 10px; padding: 1px 6px; border-radius: 3px; background: #FAEEDA; color: #854F0B; margin-left: 5px; font-weight: 500; }
+.spacer { height: 8px; }
+</style>
+
+<div class="wrap">
+
+  <div class="section-head">Group 1 — Strings <span class="section-window">Shoot 9:00–10:00 AM · Call time 8:45 AM</span></div>
+  <table>
+    <thead><tr><th>Name</th><th>Instrument</th><th>Section</th><th>Email</th><th>Phone</th><th>Call time</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Vivian Cheng</td><td>Violin</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">vivianchengmusic@gmail.com</td><td class="contact">(678) 467-9809</td><td class="call-time">8:45 AM</td></tr>
+      <tr><td class="name">Esther Kim</td><td>Violin</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">estherkimyd@gmail.com</td><td class="contact">—</td><td class="call-time">8:45 AM</td></tr>
+      <tr><td class="name">Chelsea Cline</td><td>Violin</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">chelcmonkey@gmail.com</td><td class="contact">—</td><td class="call-time">8:45 AM</td></tr>
+      <tr><td class="name">Lacie Bowlware</td><td>Viola</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">savageviola@gmail.com</td><td class="contact">—</td><td class="call-time">8:45 AM</td></tr>
+    </tbody>
+  </table>
+
+  <div class="spacer"></div>
+  <div class="section-head">Group 2 — Strings <span class="section-window">Shoot 10:30–11:30 AM · Call time 10:15 AM</span></div>
+  <table>
+    <thead><tr><th>Name</th><th>Instrument</th><th>Section</th><th>Email</th><th>Phone</th><th>Call time</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Mary McCoy</td><td>Viola</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">mary.mccoy@mail.com</td><td class="contact">—</td><td class="call-time">10:15 AM</td></tr>
+      <tr><td class="name">Aria Posner</td><td>Cello</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">aria.posner@gmail.com</td><td class="contact">—</td><td class="call-time">10:15 AM</td></tr>
+      <tr><td class="name">Barney Culver</td><td>Cello</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">barneyculver@gmail.com</td><td class="contact">—</td><td class="call-time">10:15 AM</td></tr>
+      <tr><td class="name">Jarod Boles</td><td>Bass</td><td><span class="pill pill-strings">Strings</span></td><td class="contact">jarod.d.boles@gmail.com</td><td class="contact">—</td><td class="call-time">10:15 AM</td></tr>
+    </tbody>
+  </table>
+
+  <div class="spacer"></div>
+  <div class="section-head">Group 3 — Harp + Woodwinds <span class="section-window">Shoot 12:00–1:00 PM · Call time 11:45 AM</span></div>
+  <table>
+    <thead><tr><th>Name</th><th>Instrument</th><th>Section</th><th>Email</th><th>Phone</th><th>Call time</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Julie Koenig</td><td>Harp</td><td><span class="pill pill-harp">Harp</span></td><td class="contact">orlaboru@att.net</td><td class="contact">—</td><td class="call-time">11:45 AM</td></tr>
+      <tr><td class="name">Nib McKinney</td><td>Bassoon</td><td><span class="pill pill-woodwind">Woodwind</span></td><td class="contact">nib.mckinney@gmail.com</td><td class="contact">—</td><td class="call-time">11:45 AM</td></tr>
+      <tr><td class="name">Miranda Dohrman</td><td>Clarinet</td><td><span class="pill pill-woodwind">Woodwind</span></td><td class="contact">mirandaclarinet@gmail.com</td><td class="contact">(404) 368-9670</td><td class="call-time">11:45 AM</td></tr>
+    </tbody>
+  </table>
+
+  <div class="spacer"></div>
+  <div class="section-head">Lunch <span class="section-window">1:15–2:15 PM · Not counted in shoot day</span></div>
+  <div class="spacer"></div>
+
+  <div class="section-head">Percussion <span class="section-window">Shoot 2:30–3:30 PM · Call time 2:15 PM</span></div>
+  <table>
+    <thead><tr><th>Name</th><th>Instrument</th><th>Section</th><th>Email</th><th>Phone</th><th>Call time</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Victor Pons</td><td>Percussion</td><td><span class="pill pill-perc">Percussion</span></td><td class="contact">vrperc@gmail.com</td><td class="contact">(321) 750-4839</td><td class="call-time">2:15 PM</td></tr>
+      <tr><td class="name">Caleb Herron</td><td>Percussion</td><td><span class="pill pill-perc">Percussion</span></td><td class="contact">calherron@gmail.com</td><td class="contact">(678) 620-9320</td><td class="call-time">2:15 PM</td></tr>
+    </tbody>
+  </table>
+
+  <div class="spacer"></div>
+  <div class="section-head">Conductor <span class="section-window">Shoot 3:45–5:15 PM · Call time 3:30 PM</span></div>
+  <table>
+    <thead><tr><th>Name</th><th>Role</th><th>Section</th><th>Email</th><th>Phone</th><th>Call time</th></tr></thead>
+    <tbody>
+      <tr><td class="name">TBD</td><td>Conductor</td><td><span class="pill pill-strings">Featured</span></td><td class="contact">—</td><td class="contact">—</td><td class="call-time">3:30 PM</td></tr>
+    </tbody>
+  </table>
+
+  <div class="spacer"></div>
+  <div class="section-head">Maybe — Brass <span class="section-window">If added: Percussion block 2:15 PM call</span></div>
+  <table>
+    <thead><tr><th>Name</th><th>Instrument</th><th>Section</th><th>Email</th><th>Phone</th><th>Call time</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Wes Funderburk <span class="maybe-tag">maybe</span></td><td>Trombone</td><td><span class="pill pill-brass">Brass</span></td><td class="contact">funderbone@gmail.com</td><td class="contact">—</td><td class="call-time">2:15 PM</td></tr>
+      <tr><td class="name">Bernard Flythe <span class="maybe-tag">maybe</span></td><td>Tuba</td><td><span class="pill pill-brass">Brass</span></td><td class="contact">musica5341@yahoo.com</td><td class="contact">(678) 578-9836</td><td class="call-time">2:15 PM</td></tr>
+    </tbody>
+  </table>
+
+</div>
